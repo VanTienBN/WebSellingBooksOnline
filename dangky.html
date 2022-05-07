@@ -1,0 +1,195 @@
+<html>
+<head>
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="dangky.css"/>
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css"/>
+</head>
+<body>
+    <!----------header------------->
+    <header id="wrap-header">
+        <div class="container">
+            <div class="header">
+                <div class="top">
+                    <div class="logo">
+                        <a href="./Sach.html"><img src="./Anh/logo.png" width="100%"></a>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Nhập tên sách, tác giả,...">
+                    </div>
+                    <div class="button-search">
+                        <button><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                    </div>
+                    <div class="button-gioHang">
+                        <button >  
+                            <a href="#">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng
+                            </a> 
+                    </button>
+                    </div>
+                    <div class="button-taiKhoan">
+                        <button> 
+                            <a href="./taikhoan.html">
+                            <i class="fa fa-user" aria-hidden="true"></i> Tài khoản
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+                <div class="bot">
+                    <ul>
+                        <li>
+                            <a href="./Sach.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="./NewsSachOnline.html">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="./thanhvien.html">Thành viên</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Diễn đàn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header-->
+
+    <!--Content-->
+    <div class="content">
+        <div class="content-1">
+            <div class="row-1">
+                <ul>
+                    <li>
+                        <a href=".\Sach.html">
+                            <span>Trang chủ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <p>Đăng ký</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-2">
+                <ul>
+                    <li>
+                        <p>Đăng Ký Tài Khoản</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-2">
+            <ul>
+                <li class="email">
+                    <a>
+                        <div class="maOTP">
+                            <p>Gửi mã OTP</p>
+                        </div>
+                        <p>Email/Số Điện Thoại</p><input type="text" name="user" id="user" placeholder="Nhập email hoặc số điện thoại"/> <br />
+                        <span id="erroruser"></span>
+                    </a>
+                </li>
+                <li >
+                    <a>
+                        <p>Mã xác nhận OTP </p><input type="text" name="maxacnhan" id="maxacnhan" placeholder="6 ký tự"/> <br />
+                        <span id="errormaxacnhan"></span>
+                    </a>
+                </li>
+                <li class="password">
+                    <a>
+                        <p>Mật Khẩu</p> <input type="password" name="password" id="password" placeholder="Nhập mật khẩu"/> <br />
+                        <img id="eye" onclick="myeye()" src="./Anh/eye.png">
+                        <span id="errorpassword"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+            <div class="content-3">
+                <ul>
+                    <li>
+                        <a href="#" target="_top" onclick="dangky()"> 
+                            <input type="button" name="submit-dangky" value="Đăng Ký" class="dangky"/> <br />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_top" onclick="boqua()"> 
+                            <input type="button" name="submit-boqua" value="Bỏ Qua" class="boqua"/> <br />
+                        </a>
+                    </li>
+                </ul>
+                <div class="dangnhap">
+                    <a href="taikhoan.html">
+                       <span><u>Có tài khoản đăng nhập tại đây</u></span>
+                    </a>
+                </div>
+            </div>
+        </div>   
+    </div>  
+    <!--End content--> 
+     <!--footer-->
+     <footer id="wrap-footer">
+        <div class="container">
+            <div class="footer">
+                <div class="top">
+                    <div class="danhngon">
+                        <p class="cus-name">_ĐỜI NGẮN, ĐỪNG NGỦ DÀI, ROBIN SHARMA_</p>
+                        <p class="cus-quote">Mỗi người bạn tiếp xúc đều biết ít nhất một thứ mà bạn không biết. Đừng để họ ra đi mà chưa học được điều gì.</p>
+                    </div>
+                </div>
+                <div class="bot">
+                    <div class="lienhe">
+                        <div class="thongtinhuuich" id="tt1">
+                            <p class="tthi">THÔNG TIN HỮU ÍCH</p>
+                            <ul>
+                                <li>
+                                    <a href="#">Giới thiệu chung</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thỏa thuận sử dụng dịch vụ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quyền lợi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quy định riêng tư</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="thongtinhuuich" id="tt2">
+                            <p class="tthi">THÔNG TIN LIÊN HỆ</p>
+                            <ul >
+                                <li><a href="https://www.facebook.com/quanat68/" id="fb"><i class="fa fa-facebook-official" aria-hidden="true">  Anh Quân</i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100024747062175" id="fb"><i class="fa fa-facebook-official" aria-hidden="true">  Tiến Nguyễn</i></a></li>
+                            </ul>
+                        </div>
+                        <div class="thongtinhuuich" id="tt3">
+                            <p>PHƯƠNG THỨC THANH TOÁN</p>
+                            <i class="fa fa-cc-visa" aria-hidden="true" id="pt"></i>
+                            <i class="fa fa-cc-mastercard" aria-hidden="true" id="pt"></i>
+                            <i class="fa fa-cc-jcb" aria-hidden="true" id="pt"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="banquyen">
+                        <p>Copyright &copy; Đại Học Điện Lực </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a class="on_top" href="#top" style="display: block;"><i class="fa-arrow-circle-up fa"></i></a>
+    <!--footer-->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/dangky.js"></script>
+    <script src="js/sach.js"></script>
+   
+</body>
+</html>

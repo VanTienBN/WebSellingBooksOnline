@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: rgb(58, 57, 57);}
+ul{list-style-type: none;}
+button{cursor: pointer;}
+body{font-size: 16px;background-color: rgb(253, 253, 253);font-family: Arial, Helvetica, sans-serif;}
+p{color: teal;}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/*---------header------------*/
+header#wrap-header{box-shadow: 0 0 5px 0 rgb(168, 142, 146);background-color: white;}
+header#wrap-header .container{width: 1200px;margin: auto;}
+header#wrap-header .container .header{height: 90px;}
+/*top*/
+header#wrap-header .container .header .top{width:100%;height: 70px;display: flex;}
+header#wrap-header .container .header .top a{color: white;}
+header#wrap-header .container .header .top .logo{width: 15%;}
+header#wrap-header .container .header .top .input{padding: 22px 0 22px 22px;}
+header#wrap-header .container .header .top .input input{width: 300px;height: 27px;padding: 10px;}
+header#wrap-header .container .header .top .button-search{padding: 22px 0;}
+header#wrap-header .container .header .top .button-search button{height: 27px;width: 80px;color: white;background-color: teal;border: none;border-radius: 0 5px 5px 0;}
+header#wrap-header .container .header .top .button-search button:hover{background-color: turquoise;}
+header#wrap-header .container .header .top .button-gioHang{padding: 22px 0 22px 300px;}
+header#wrap-header .container .header .top .button-gioHang button{height: 30px;width: 100px;color: white;background-color:teal;border: none;border-radius: 5px;}
+header#wrap-header .container .header .top .button-gioHang button:hover{background-color:turquoise;}
+header#wrap-header .container .header .top .button-taiKhoan{padding: 22px 0 22px 50px;}
+header#wrap-header .container .header .top .button-taiKhoan button{height: 30px;width: 100px;color: white;background-color: teal;border: none;border-radius: 5px;}
+header#wrap-header .container .header .top .button-taiKhoan button:hover{background-color: turquoise;}
+.fixed{position: fixed;z-index: 10000;top: 0px;width: 100%;}
+/*top*/
+
+/*bot*/
+header#wrap-header .container .header .bot{margin-left: 150px;}
+header#wrap-header .container .header .bot ul li{display: inline-block;margin-left: 100px;}
+header#wrap-header .container .header .bot ul li a{font-size: 14px;}
+header#wrap-header .container .header .bot ul li a:hover{color: rgb(168, 142, 146);}
+
+/*bot*/
+/*---------End header------------*/
+
+/*Content*/
+
+.content{width: 1200px;height: 420px;margin: auto;}
+.content .content-1 { width: 100%;height: 40px;}
+
+.content .content-1 .row-1{width: 100%;height: 40px;}
+.content .content-1 .row-1 ul{list-style-type: none;padding-top: 20px;padding-left: 40px;}
+.content .content-1 .row-1 ul li{display: inline-block;}
+.content .content-1 .row-1 ul li p{color:red}
+.content .content-1 .row-1 ul li a:hover{color: red;}
+
+.content .content-2 { width: 90%;margin-left: 40px;}
+.content .content-2 .top{width: 100%;height: 50px;margin-top: 10px;border: 1px solid rgb(204, 204, 204);box-sizing: border-box;}
+.content .content-2 .top ul{list-style-type: none;}
+.content .content-2 .top ul li{display: inline-block;position: relative;}
+.content .content-2 .top ul li span{font-size: 18px;padding-top: 15px;position: absolute;}
+.content .content-2 .top ul #thongtinsanpham{width: 550px;height: 100%;}
+.content .content-2 .top ul #thongtinsanpham span{margin-left: 160px;}
+.content .content-2 .top ul #gia{width: 150px;height: 100%;}
+.content .content-2 .top ul #gia span{margin-left: 60px;}
+.content .content-2 .top ul #soluong{width: 200px;height: 100%;}
+.content .content-2 .top ul #soluong span{margin-left: 50px;}
+.content .content-2 .bottom{width: 100%;margin-top: 10px;}
+.content .content-2 .bottom .cart-items .cart-row{height: 100px;border: 1px solid rgb(204, 204, 204);box-sizing: border-box;margin-bottom: 5px;}
+
+
+.content .content-2 .bottom .cart-items .cart-row .thongtinsanpham{width: 550px;height: 100%;float: left;padding-top: 20px;padding-left: 20px;}
+.content .content-2 .bottom .cart-items .cart-row .thongtinsanpham a span{width: 350px;;font-size: 15px;font-weight: bold;margin-left: 20px;text-align: center;float: left;cursor: pointer;}
+.content .content-2 .bottom .cart-items .cart-row .thongtinsanpham a span:hover{color:red;}
+.content .content-2 .bottom .cart-items .cart-row .gia{width: 150px;height: 100%;float: left;padding-top: 20px;}
+.content .content-2 .bottom .cart-items .cart-row .gia span{width: 150px;font-size: 18px;font-weight: bold;margin-left: 40px;float: left;}
+.content .content-2 .bottom .cart-items .cart-row .soluong{width: 200px;height: 100%;float: left;padding-top: 20px;}
+.content .content-2 .bottom .cart-items .cart-row .soluong input{width: 120px;font-size: 18px;margin-left: 40px;float: left;}
+.content .content-2 .bottom .cart-items .cart-row .thaotac{width: 150px;height: 100%;float: left;padding-top: 20px;}
+.content .content-2 .bottom .cart-items .cart-row .thaotac button{width: 60px;height: 30px;;font-size: 20px;border:1px solid rgb(252, 64, 64);border-radius: 5px;color: white;margin-left: 60px;float: left;background-color: red;}
+.content .content-2 .bottom .cart-items .cart-row .thaotac button:hover{background-color: white;color: red;}
+.content .content-2 .bottom .cart-items .tong{margin-left: 800px;margin-top: 10px;}
+.content .content-2 .bottom .cart-items .tong span{font-weight: bold;color: red;}
+
+.content .content-3{width: 100%;height: 50px;;float: right;}
+.content .content-3 ul{list-style-type: none;margin-left: 800px;margin-top: 10px;}
+.content .content-3 ul li{display: inline-block;}
+.content .content-3 ul li button{width: 150px;height: 40px;background-color: teal;border: none;margin-right: 10px;}
+.content .content-3 ul li button span{color: white;font-size: 15px;font-weight: bold;}
+.content .content-3 ul li button:hover{background-color: turquoise;}
+
+
+
+/*End content*/
+
+  /*---------footer------------*/
+
+footer#wrap-footer .container .footer{height: 400px;margin-top: 20px;}
+
+/*top*/
+footer#wrap-footer .container .footer .top{width: 100%;margin: auto;background-color:teal;}
+footer#wrap-footer .container .footer .top .danhngon{width: 900px;margin: auto;position: relative;}
+
+footer#wrap-footer .container .footer .top .danhngon p.cus-name{text-align: center;padding: 20px 0;color: white;}
+footer#wrap-footer .container .footer .top .danhngon p.cus-quote{text-align: center;padding-bottom: 20px;color: white;}
+/*top*/
+
+/*bot*/
+footer#wrap-footer .container .footer .bot{width: 1200px;height: 250px;margin: auto;}
+footer#wrap-footer .container .footer .bot .lienhe{display: flex;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich{width: 33.3%;padding: 50px 50px ;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich p{color: rgb(31, 156, 156);}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul{margin-top: 10px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li{margin-top: 5px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li a{font-size: 13px;color: teal;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li a#fb{font-size: 17px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li a:hover{color: turquoise;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich i#pt{font-size: 35px;padding: 15px;}
+
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich#tt1{padding-left: 80px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich#tt2{padding-left: 50px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich#tt3{padding-left: 20px;}
+footer#wrap-footer .container .footer .bot .banquyen{border-top: 1px solid rgb(221, 183, 183) ;width: 500px;margin: auto;margin-top: 20px;padding-top: 10px;}
+footer#wrap-footer .container .footer .bot .banquyen p{text-align: center;}
+/*bot*/
+/*---------End footer------------*/
+a.on_top { opacity:0.2; display: none;border-radius: 6px;background-color: #333333;padding: 10px 20px 0;white-space: nowrap; color: #fff;position: fixed;bottom: 75px;right: 30px;height: 40px;}
+a.on_top:hover{background-color: #007bb6;color: #fff;border: 1px solid #007bb6;opacity:1;}
+a.on_top i{ font-size: 30px;}

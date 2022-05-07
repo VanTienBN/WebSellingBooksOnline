@@ -1,0 +1,209 @@
+<html>
+<head>
+    <title>Thông tin cá nhân</title>
+    <link rel="stylesheet" href="doithongtincanhan.css"/>
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css"/>
+</head>
+<body>
+    <!----------header------------->
+    <header id="wrap-header">
+        <div class="container">
+            <div class="header">
+                <div class="top">
+                    <div class="logo">
+                        <a href="./Sach.html"><img src="./Anh/logo.png" width="100%"></a>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Nhập tên sách, tác giả,...">
+                    </div>
+                    <div class="button-search">
+                        <button><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                    </div>
+                    <div class="button-gioHang">
+                        <button >  
+                            <a href="./giohang.html">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng
+                            </a> 
+                    </button>
+                    </div>
+                    <div class="button-taiKhoan">
+                        <button> 
+                            <a href="./taikhoan.html">
+                            <i class="fa fa-user" aria-hidden="true"></i> Tài khoản
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+                <div class="bot">
+                    <ul>
+                        <li>
+                            <a href="./Sach.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="./NewsSachOnline.html">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="./thanhvien.html">Thành viên</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Diễn đàn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header-->
+
+    <!--Content-->
+    <div class="content">
+        <div class="content-1">
+            <div class="row-1">
+                <ul>
+                    <li>
+                        <a href="./Sach.html">
+                            <span>Trang chủ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <p>Đổi thông tin cá nhân</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-2">
+                <ul>
+                    <li>
+                        <p>Đổi Thông Tin Cá Nhân</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-2">
+            <ul>
+                <li>
+                    <a>
+                        <p>Họ tên:</p><input type="text" name="hoten" id="hoten" placeholder="Họ tên"/> <br />
+                        <span id="errorhoten"></span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p>Ngày sinh:</p><input type="text" name="ngaysinh" id="ngaysinh" placeholder="Ngày sinh"/> <br />
+                        <span id="errorngaysinh"></span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p>Điện thoại:</p> <input type="text" name="dienthoai" id="dienthoai" placeholder="Điện thoại"/> <br />
+                        <span id="errordienthoai"></span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p>Email:</p><input type="text" name="email" id="email" placeholder="Email"/> <br />
+                        <span id="erroremail"></span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p>Tỉnh/Thành Phố:</p><input type="text" name="tinhthanhpho" id="tinhthanhpho" placeholder="Tỉnh/Thành phố"/> <br />
+                        <span id="errortinh"></span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p>Quận/Huyện:</p> <input type="text" name="quanhuyen" id="quanhuyen" placeholder="Quận/Huyện"/> <br />
+                        <span id="errorquan"></span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <p>Địa chỉ chi tiết:</p> <input type="text" name="diachi" id="diachi" placeholder="Địa chỉ chi tiết"/> <br />
+                        <span id="errordiachi"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+            <div class="content-3">
+                <ul>
+                    <li>
+                        <a href="#" target="_top" onclick="doithongtin()"> 
+                            <input type="button" name="submit-capnhat" value="Cập Nhật" class="capnhat"/> <br />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_top" onclick="quaylai()" > 
+                            <input type="button" name="submit-quaylai" value="Quay Lại" class="quaylai"/> <br />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </div>  
+    <!--End content--> 
+     <!--footer-->
+     <footer id="wrap-footer">
+        <div class="container">
+            <div class="footer">
+                <div class="top">
+                    <div class="danhngon">
+                        <p class="cus-name">_ĐỜI NGẮN, ĐỪNG NGỦ DÀI, ROBIN SHARMA_</p>
+                        <p class="cus-quote">Mỗi người bạn tiếp xúc đều biết ít nhất một thứ mà bạn không biết. Đừng để họ ra đi mà chưa học được điều gì.</p>
+                    </div>
+                </div>
+                <div class="bot">
+                    <div class="lienhe">
+                        <div class="thongtinhuuich" id="tt1">
+                            <p class="tthi">THÔNG TIN HỮU ÍCH</p>
+                            <ul>
+                                <li>
+                                    <a href="#">Giới thiệu chung</a>
+                                </li>
+                                <li>
+                                    <a href="#">Thỏa thuận sử dụng dịch vụ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quyền lợi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quy định riêng tư</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="thongtinhuuich" id="tt2">
+                            <p class="tthi">THÔNG TIN LIÊN HỆ</p>
+                            <ul >
+                                <li><a href="https://www.facebook.com/quanat68/" id="fb"><i class="fa fa-facebook-official" aria-hidden="true">  Anh Quân</i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100024747062175" id="fb"><i class="fa fa-facebook-official" aria-hidden="true">  Tiến Nguyễn</i></a></li>
+                       
+                            </ul>
+                        </div>
+                        <div class="thongtinhuuich" id="tt3">
+                            <p>PHƯƠNG THỨC THANH TOÁN</p>
+                            <i class="fa fa-cc-visa" aria-hidden="true" id="pt"></i>
+                            <i class="fa fa-cc-mastercard" aria-hidden="true" id="pt"></i>
+                            <i class="fa fa-cc-jcb" aria-hidden="true" id="pt"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="banquyen">
+                        <p>Copyright &copy; Đại Học Điện Lực </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a class="on_top" href="#top" style="display: block;"><i class="fa-arrow-circle-up fa"></i></a>
+    <!--footer-->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/doithongtincanhan.js"></script>
+</body>
+</html>

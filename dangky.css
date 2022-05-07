@@ -1,0 +1,110 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: rgb(58, 57, 57);}
+ul{list-style-type: none;}
+button{cursor: pointer;}
+body{font-size: 16px;background-color: rgb(253, 253, 253);font-family: Arial, Helvetica, sans-serif;}
+p{color: teal;}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/*---------header------------*/
+header#wrap-header{box-shadow: 0 0 5px 0 rgb(168, 142, 146);background-color: white;}
+header#wrap-header .container{width: 1200px;margin: auto;}
+header#wrap-header .container .header{height: 90px;}
+/*top*/
+header#wrap-header .container .header .top{width:100%;height: 70px;display: flex;}
+header#wrap-header .container .header .top a{color: white;}
+header#wrap-header .container .header .top .logo{width: 15%;}
+header#wrap-header .container .header .top .input{padding: 22px 0 22px 22px;}
+header#wrap-header .container .header .top .input input{width: 300px;height: 27px;padding: 10px;}
+header#wrap-header .container .header .top .button-search{padding: 22px 0;}
+header#wrap-header .container .header .top .button-search button{height: 27px;width: 80px;color: white;background-color: teal;border: none;border-radius: 0 5px 5px 0;}
+header#wrap-header .container .header .top .button-search button:hover{background-color: turquoise;}
+header#wrap-header .container .header .top .button-gioHang{padding: 22px 0 22px 300px;}
+header#wrap-header .container .header .top .button-gioHang button{height: 30px;width: 100px;color: white;background-color:teal;border: none;border-radius: 5px;}
+header#wrap-header .container .header .top .button-gioHang button:hover{background-color:turquoise;}
+header#wrap-header .container .header .top .button-taiKhoan{padding: 22px 0 22px 50px;}
+header#wrap-header .container .header .top .button-taiKhoan button{height: 30px;width: 100px;color: white;background-color: teal;border: none;border-radius: 5px;}
+header#wrap-header .container .header .top .button-taiKhoan button:hover{background-color: turquoise;}
+.fixed{position: fixed;z-index: 10000;top: 0px;width: 100%;}
+/*top*/
+
+/*bot*/
+header#wrap-header .container .header .bot{margin-left: 150px;}
+header#wrap-header .container .header .bot ul li{display: inline-block;margin-left: 100px;}
+header#wrap-header .container .header .bot ul li a{font-size: 14px;}
+header#wrap-header .container .header .bot ul li a:hover{color: rgb(168, 142, 146);}
+
+/*bot*/
+/*---------End header------------*/
+
+/*-------Content-------------*/
+.content{width: 1200px;height: 520px;margin: auto;}
+.content .content-1 { width: 100%;height: 80px;}
+
+.content .content-1 .row-1{width: 100%;height: 40px;}
+.content .content-1 .row-1 ul{list-style-type: none;padding-top: 20px;padding-left: 40px;}
+.content .content-1 .row-1 ul li{display: inline-block;}
+.content .content-1 .row-1 ul li p{color:red}
+.content .content-1 .row-1 ul li a:hover{color: red;}
+
+.content .content-1 .row-2{width: 100%;height: 40px;}
+.content .content-1 .row-2 ul{list-style-type: none;}
+.content .content-1 .row-2 ul li{display: inline-block;}
+.content .content-1 .row-2 ul li p{text-decoration: none;font-size: 25px;font-weight: bold;color: Red;margin-left: 470px;}
+
+.content .content-2{ width: 100%; height: 240px;}
+.content .content-2 ul {list-style-type: none;margin-left: 320px;}
+.content .content-2 ul li{height: 80px;}
+.content .content-2 ul li p{font-size: 15px;padding-top:10px;margin-bottom: 10px;}
+.content .content-2 ul li a span{font-size: 10px;color:red;margin-left: 15px;}
+.content .content-2 ul li a input[type="text"], .content-2 ul li a input[type="password"]{ width: 525px; height: 40px; border: 1px solid rgb(223,223,223); border-radius: 1px;}
+.content .content-2 ul .email{position: relative;}
+.content .content-2 ul .email a .maOTP{position: absolute;margin-left: 48%;margin-top: 40px;cursor: pointer;}
+.content .content-2 ul .email a .maOTP:hover{color:blue;}
+.content .content-2 ul .password{position: relative;}
+.content .content-2 ul .password a #eye{position: absolute;margin-left: 52%;margin-top: -35px;cursor: pointer;}
+.content .content-2 ul .password a #eye {width: 40px;height: 30px;}
+
+.content .content-3{width: 100%;height: 200px;}
+.content .content-3 ul{list-style-type: none;margin-left: 320px;}
+.content .content-3 input[type="button"]{margin-top: 20px;font-size: 20px;font-weight: bold;   }
+.content .content-3 ul li input.dangky{width: 525px;height: 40px;background-color:rgb(255,122,0);color:rgb(255,255,255);border: 1px solid rgb(255,122,0);cursor: pointer;}
+.content .content-3 ul li a input.boqua{ width: 525px;height: 40px;background-color:rgb(255,255,255);color:rgb(243,152,1);border: 1px solid rgb(255, 165, 0);cursor: pointer;}
+.content .content-3 .dangnhap{padding-top:10px;margin-left: 470px;}
+.content .content-3 .dangnhap:hover a span{color: red;}
+/*-------End Content----------*/
+/*---------footer------------*/
+
+footer#wrap-footer .container .footer{height: 400px;margin-top: 20px;}
+
+/*top*/
+footer#wrap-footer .container .footer .top{width: 100%;margin: auto;background-color: teal;}
+footer#wrap-footer .container .footer .top .danhngon{width: 900px;margin: auto;position: relative;}
+
+footer#wrap-footer .container .footer .top .danhngon p.cus-name{text-align: center;padding: 20px 0;color: white;}
+footer#wrap-footer .container .footer .top .danhngon p.cus-quote{text-align: center;padding-bottom: 20px;color: white;}
+/*top*/
+
+/*bot*/
+footer#wrap-footer .container .footer .bot{width: 1200px;height: 250px;margin: auto;}
+footer#wrap-footer .container .footer .bot .lienhe{display: flex;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich{width: 33.3%;padding: 50px 50px ;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich p{color: teal;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul{margin-top: 10px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li{margin-top: 5px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li a{font-size: 13px;color: teal;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li a#fb{font-size: 17px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich ul li a:hover{color: turquoise;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich i#pt{font-size: 35px;padding: 15px;}
+
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich#tt1{padding-left: 80px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich#tt2{padding-left: 50px;}
+footer#wrap-footer .container .footer .bot .lienhe .thongtinhuuich#tt3{padding-left: 20px;}
+footer#wrap-footer .container .footer .bot .banquyen{border-top: 1px solid rgb(221, 183, 183) ;width: 500px;margin: auto;margin-top: 20px;padding-top: 10px;}
+footer#wrap-footer .container .footer .bot .banquyen p{text-align: center;}
+/*bot*/
+/*---------End footer------------*/
+a.on_top { opacity:0.2; display: none;border-radius: 6px;background-color: #333333;padding: 10px 20px 0;white-space: nowrap; color: #fff;position: fixed;bottom: 75px;right: 30px;height: 40px;}
+a.on_top:hover{background-color: #007bb6;color: #fff;border: 1px solid #007bb6;opacity:1;}
+a.on_top i{ font-size: 30px;}
